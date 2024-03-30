@@ -1,7 +1,11 @@
 {
-    "java.project.sourcePaths": ["src"],
-    "java.project.outputPath": "bin",
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar"
-    ]
+	"java.project.sourcePaths": ["src"],
+	"java.project.outputPath": "bin",
+	"java.project.referencedLibraries": ["lib/**/*.jar"],
+	"[java]": {
+		"editor.defaultFormatter": "redhat.java",
+		"editor.wordWrap": "off"
+	},
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode"
 }
